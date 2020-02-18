@@ -1,0 +1,120 @@
+/*
+* @des grid layout
+* @author liw 2014-08-14
+* @update 2014-08-14
+*/
+.grid,
+.grid-wide{
+    width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-wide{
+    width: 1190px;
+}
+.row-fluid .col-1,
+.row-fluid .col-2,
+.row-fluid .col-3,
+.row-fluid .col-4,
+.row-fluid .col-5,
+.row-fluid .col-6,
+.row-fluid .col-7,
+.row-fluid .col-8,
+.row-fluid .col-9,
+.row-fluid .col-10,
+.row-fluid .col-11,
+.row-fluid .col-12,
+.row-fluid .col-13,
+.row-fluid .col-14,
+.row-fluid .col-15,
+.row-fluid .col-16,
+.row-fluid .col-17,
+.row-fluid .col-18,
+.row-fluid .col-19,
+.row-fluid .col-20,
+.row-fluid .col-21,
+.row-fluid .col-22,
+.row-fluid .col-23,
+.row-fluid .col-24,
+.row-fluid .col-25{
+    float: left;
+}
+.gutter-1{
+    margin-right: 10px;
+}
+.col-1{
+    width: 30px;
+}
+.col-2{
+    width: 70px;
+}
+.col-3{
+    width: 110px;
+}
+.col-4{
+    width: 150px;
+}
+.col-5{
+    width: 190px;
+}
+.col-6{
+    width: 230px;
+}
+.col-7{
+    width: 270px;
+}
+.col-8{
+    width: 310px;
+}
+.col-9{
+    width: 350px;
+}
+.col-10{
+    width: 390px;
+}
+.col-11{
+    width: 430px;
+}
+.col-12{
+    width: 470px;
+}
+.col-13{
+    width: 510px;
+}
+.col-14{
+    width: 550px;
+}
+.col-15{
+    width: 590px;
+}
+.col-16{
+    width: 630px;
+}
+.col-17{
+     width: 670px;
+ }
+.col-18{
+    width: 710px;
+}
+.col-19{
+    width: 750px;
+}
+.col-20{
+    width: 790px;
+}
+.col-21{
+    width: 830px;
+}
+.col-22{
+    width: 870px;
+}
+.col-23{
+    width: 910px;
+}
+.col-24{
+    width: 950px;
+}
+.col-25{
+    width: 990px;
+}
+

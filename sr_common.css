@@ -1,0 +1,2056 @@
+/*
+* @des cn showroom common style
+* @author shijinyu
+* @update 2013-12-19
+*/
+@import url("base_import.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/base/base_import.css*/;
+@import url("ui_icon.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/ui/ui_icon.css*/;
+@import url("ui_pop.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/ui/ui_pop.css*/;
+@import url("ui_tip.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/ui/ui_tip.css*/;
+@import url("button.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/ui/button.css*/;
+@import url("cn_footer.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/components/cn_footer.css*/;
+@import url("sr_nav.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/components/sr_nav.css*/;
+@import url("u-box.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/ui/u-box.css*/;
+@import url("pagenav.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/ui/pagenav.css*/;
+
+.fix-adv,
+.free-adv{
+	position:relative;
+}
+.fix-adv a{
+	display:block;
+	width:1920px;
+	margin-left:-964px;
+	position:relative;
+	left:50%;
+}
+.wrap {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.ico-cert-senior {
+    width: 100px;
+    height: 38px;
+    background: url("show-cert-sprite.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/new-common/show-cert-sprite.png*/ 0 0;
+    display: inline-block;
+    _display: block;
+    text-indent: -999em;
+}
+
+.ico-cert-basic {
+    width: 100px;
+    height: 38px;
+    font-size: 0;
+    line-height: 0;
+    background: url("show-cert-sprite.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/new-common/show-cert-sprite.png*/ 0 -40px;
+    display: inline-block;
+    _display: block;
+}
+
+.ico-cert-yqt {
+    width: 94px;
+    height: 27px;
+    margin-bottom: 5px;
+    background: url("show-cert-sprite.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/new-common/show-cert-sprite.png*/ -322px -334px;
+    display: inline-block;
+}
+
+/* browser upgrade */
+.upgrade-wrap {
+    background: #f5f6b4;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: 'microsoft yahei';
+    display: none;
+}
+
+.upgrade-tip {
+    position: relative;
+}
+
+.upgrade-tip dt {
+    width: 495px;
+    padding-top: 10px;
+    float: left;
+}
+
+.upgrade-tip dd {
+    overflow: hidden;
+}
+
+.upgrade-tip li {
+    width: 100px;
+    text-align: center;
+    float: left;
+}
+
+.upgrade-tip i {
+    width: 36px;
+    height: 36px;
+    display: block;
+    background: url("browser_logo.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/browser_logo.png*/ no-repeat;
+    margin: 0 0 7px 31px;
+}
+
+.upgrade-tip .chrome-logo {
+    background-position: 0 0;
+}
+
+.upgrade-tip .firefox-logo {
+    background-position: -107px 0;
+}
+
+.upgrade-tip .ie-logo {
+    background-position: -37px 0;
+}
+
+.upgrade-tip .logo-360 {
+    background-position: -72px 0;
+}
+
+.upgrade-tip .icon-close {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+/* company qrcode */
+.companyName {
+    height: 125px;
+    padding-top: 14px;
+    position: relative;
+}
+
+.company-qrcode {
+    position: absolute;
+    right: 10px;
+    top: -8px;
+}
+
+.company-qrcode img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #dfdfdf;
+    border-bottom: 1px solid #c7c7c7;
+    border-top: 1px solid #f2f2f2;
+    box-shadow: 0 0 8px #e9e9e9;
+}
+
+.company-qrcode span {
+    width: 0;
+    height: 0;
+    border-bottom: 6px solid #ccc;
+    overflow: hidden;
+    position: absolute;
+    top: 1px;
+}
+
+.company-qrcode .l-arrow {
+    border-left: 7px solid #fff;
+    left: -7px;
+}
+
+.company-qrcode .r-arrow {
+    border-right: 7px solid #fff;
+    right: -7px;
+}
+
+.company-qrcode p {
+    margin-top: 8px;
+    text-align: center;
+}
+
+/*ï¿½Ò±ß¿ò²¼¾ï¿½*/
+.side_1 {
+    float: right
+}
+
+.side_2 {
+    float: left
+}
+
+.c {
+    text-align: center
+}
+
+.r {
+    text-align: right
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.coll {
+    display: none;
+}
+
+.move {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 100;
+    margin-bottom: 10px
+}
+
+.addBox {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    background-color: #313844;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.addBox a {
+    color: #fff;
+    font-size: 14px;
+    background: url("icon-add.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/icon-add.png*/ no-repeat left center;
+    padding-left: 18px
+}
+
+.addBox a:link, .addBox a:visited {
+    color: #fff;
+}
+
+.red {
+    color: #d9363c;
+}
+
+.red2 {
+    color: #df4851;
+}
+
+/*photo60,photo100,photo160,photo270*/
+.photo60 {
+    height: 60px;
+    width: 60px;
+}
+
+.photo100 {
+    height: 100px;
+    width: 100px;
+}
+
+.photo160 {
+    height: 160px;
+    width: 160px;
+    font-size: 0;
+}
+
+.photo270 {
+    height: 270px;
+    width: 270px;
+}
+
+.photo60, .photo100, .photo160, .photo270 {
+    display: table-cell;
+    text-align: center;
+    font-family: sans-serif, arial;
+    overflow: hidden;
+}
+
+.photo60 span, .photo100 span, .photo160 span, .photo270 span {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle
+}
+
+.photo60 img, .photo100 img, .photo160 img, .photo270 img {
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%
+}
+
+.fat160 {
+    width: 160px;
+}
+
+.tall160 {
+    height: 160px;
+}
+
+.mPview {
+    float: left;
+    margin-right: 5px
+}
+
+.pic-60 {
+    width: 60px;
+    height: 60px;
+}
+
+.pic-100 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e2e2e2;
+    background: #f7f7f7;
+}
+
+.pic-160 {
+    width: 160px;
+    height: 160px;
+}
+
+.pic-270 {
+    width: 270px;
+    height: 270px;
+}
+
+/*
+ *@topic:Products & Offer Detail Discription.
+ *@author:shijinyu
+ *@date:2013-9-17
+ */
+.description {
+    padding: 20px;
+    overflow: hidden;
+    *zoom: 1;
+}
+
+.description .de-hd {
+    margin: 0;
+    padding: 4px 9px;
+    font: bold 12px/2 Tahoma, Arial, Simsun;
+    color: #333;
+    background-color: #f1f5f7;
+}
+
+.de-table {
+    margin-bottom: 20px;
+}
+
+.de-table-bd {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.de-table-bd table, .de-detail table {
+    border-collapse: collapse;
+    border-top: 1px solid #d1d1d1;
+    border-left: 1px solid #d1d1d1;
+    width: 100%;
+    min-width: 400px;
+}
+
+.de-table-bd table td, .de-table-bd table th, .de-detail table td, .de-detail table th {
+    padding: 5px;
+    border-bottom: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+    font: normal 12px/2 Tahoma, Arial, Simsun;
+}
+
+.de-table-bd table th, .de-detail table th {
+    font-weight: bold;
+}
+
+.de-table-other {
+    overflow-x: auto;
+}
+
+.de-table-other table {
+    border-right: none;
+    border-bottom: none;
+}
+
+.de-table-other td {
+    border-right: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.de-table-bd .de-table-tr {
+    border: 1px solid #e0e0e0;
+    border-bottom: none;
+}
+
+.de-table-bd dl {
+    float: left;
+}
+
+.de-table-bd dl dt {
+    float: left;
+    width: 90px;
+    padding: 5px;
+    border-right: 1px solid #c9c9c9;
+    text-align: right;
+}
+
+.de-table-bd dl dd {
+    float: left;
+    width: 237px;
+    padding: 5px;
+}
+
+.de-detail {
+    margin-bottom: 20px;
+    font: normal 12px/2 Tahoma, Arial, Simsun;
+    color: #333;
+}
+
+.de-detail p {
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+
+.de-detail strong {
+    font-weight: bold;
+}
+
+.de-detail img {
+	max-width:100%;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+/* block box layout */
+.block {
+    overflow: hidden;
+}
+
+.block-hd {
+    overflow: hidden;
+    *zoom: 1;
+}
+
+.block-hd .block-tit {
+    float: left;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: tahoma, arial, simsun;
+    color: #333;
+}
+
+.block-bd {
+    overflow: hidden;
+}
+
+/*
+ *@topic:Products & Offer Detail Page--Related Products.
+ *@author:shijinyu
+ *@date:2014-2-10
+ */
+.related-quickpro {
+    margin-top: 10px;
+    clear: both;
+}
+
+.related-quickpro-hd {
+    font: bold 14px/2 "\5B8B\4F53";
+    color: #333;
+}
+
+.related-quickpro-bd {
+    padding: 10px
+}
+
+.related-quickpro-bd a {
+    margin-right: 8px;
+    font-size: 14px;
+    word-break: keep-all;
+}
+
+.related-quickpro-bd a:link, .related-quickpro-bd a:visited {
+    color: #333;
+}
+
+.related-quickpro-bd a:hover {
+    color: #C0030A;
+}
+
+/* 2014-12-08 wangmei
+ * code style
+ */
+.qrcode {
+    width: 118px;
+    position: fixed;
+    _position: absolute;
+    top: 450px;
+    left: 50%;
+    margin-left: 500px;
+    border: 1px solid #ccc;
+    background: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.qrcode img {
+    width: 100px;
+}
+
+.qrcode p {
+    background: #f2f2f2;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+
+.hot-industry-bd {
+    max-height: 66px;
+    _height: 66px;
+    overflow: hidden;
+    *zoom: 1;
+}
+
+.hot-industry-bd a {
+    float: left;
+    margin: 0 12px 12px 0;
+    font-size: 14px;
+    white-space: nowrap;
+    _didsplay: inline;
+}
+
+.hot-industry-bd a:link,
+.hot-industry-bd a:visited {
+    color: #333;
+}
+
+.hot-industry-bd a:hover {
+    color: #C0030A
+}
+
+/* 2015-7-21
+ * wangmei
+ */
+.disclaimer {
+    padding: 10px 0;
+    color: #999;
+    clear: both;
+}
+
+/* add product cate search */
+.prod-cate {
+    border-top: none;
+    margin-bottom: 10px;
+    background: #fff;
+    position: relative;
+}
+
+.prod-cate-lst {
+    width: 660px;
+    padding: 10px 0;
+    overflow: hidden;
+    *zoom: 1;
+}
+
+.switch {
+    width: 37px;
+    padding: 1px 8px;
+    border: 1px solid #d9d9d9;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.prod-cate-lst li {
+    line-height: 30px;
+    padding: 0 15px 0 15px;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.prod-cate-lst .now a:link,
+.prod-cate-lst .now a:visited {
+    color: #ce120f;
+}
+
+.cate-search {
+    padding: 15px 0 15px 15px;
+}
+
+.cate-search .txt {
+    width: 260px;
+    border-right: none;
+}
+
+.proitem .price {
+    padding-top: 40px;
+    float: left;
+    width: 118px;
+    text-align: center;
+}
+
+.proitem .price strong {
+    display: block;
+    font-size: 16px;
+}
+
+.contact {
+    float: right;
+    padding-top: 20px;
+}
+
+.contact .inquiry-ope {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'microsoft yahei';
+}
+
+.contact .inquiry-ope:link,
+.contact .inquiry-ope:visited,
+.proitem .desc h3 a:link,
+.proitem .desc h3 a:visited {
+    color: #333;
+}
+
+.contact .inquiry-ope:hover,
+.proitem .desc h3 a:hover {
+    color: #e04b43;
+}
+
+/* 2016-1-28
+ * wangmei
+ */
+
+.rightCon .zoom {
+    z-index: 99;
+}
+
+.flu-tool dt,
+.flu-tool dd p {
+    margin-bottom: 5px;
+}
+
+.flu-tool dd p {
+    font-weight: bold;
+}
+
+.flu-qrcode,
+.card-qrcode {
+    position: relative;
+}
+
+.flu-qrcode {
+    width: 138px;
+    margin: 0 auto;
+    background: #fff;
+    z-index: 2;
+}
+
+.flu-qrcode span {
+    width: 0;
+    height: 0;
+    border-top: 6px solid #ccc;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+.flu-qrcode .l-arrow {
+    border-left: 7px solid transparent;
+    left: -6px;
+}
+
+.flu-qrcode .r-arrow {
+    border-right: 7px solid transparent;
+    right: -6px;
+}
+
+.flu-tool .btn-send-msg,
+.flu-tool .btn-tm-off,
+.flu-tool .btn-tm-on {
+    width: 130px;
+    height: 30px;
+    background: url("flx_send_msg.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/flx_send_msg.png*/ no-repeat;
+}
+
+.flu-tool .btn-tm-off,
+.flu-tool .btn-tm-on {
+    background: url("flx_tm_off.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/flx_tm_off.png*/ no-repeat;
+    margin-top: 0;
+}
+
+.flu-tool .btn-tm-on {
+    background: url("flx_tm_on.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/flx_tm_on.png*/ no-repeat;
+}
+
+.qrcode-hd {
+    line-height: 28px;
+    border: 1px solid #dedede;
+    border-top: none;
+    background: #fafafa;
+    padding-left: 15px;
+    cursor: pointer;
+    _padding-top: 8px;
+    _height: 26px;
+}
+
+.qrcode-hd .icon-qrcode-small {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+    background: url("icon.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/icon.png*/ no-repeat;
+}
+
+.qrcode-hd b {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 12px;
+    right: 14px;
+}
+
+.flu-qrcode .qrcode-hd {
+    padding-left: 18px;
+}
+
+.flu-qrcode .qrcode-hd b {
+    border: 5px solid #fff;
+    border-bottom-color: #666;
+    top: 10px;
+}
+
+.qrcode-bd {
+    width: 280px;
+    text-align: center;
+    border: 1px solid #ddd7d9;
+    background: #f2f2f2;
+    position: absolute;
+    bottom: 29px;
+    left: -131px;
+    z-index: 100;
+}
+
+.qrcode-in {
+    padding: 10px;
+    background: #fff;
+}
+
+.flu-tool-bd .qrcode-bd p {
+    line-height: 28px;
+    padding-top: 4px;
+}
+
+.flu-tool-bd .qrcode-bd img {
+    margin: 0;
+}
+
+.flu-qrcode .hover b {
+    border-top-color: #666;
+    border-bottom: none;
+    top: 16px;
+}
+
+.card-qrcode .qrcode-bd {
+    top: 29px;
+    left: -130px;
+    bottom: auto;
+}
+
+.card-name {
+    float: left;
+}
+
+.card-qrcode {
+    width: 152px;
+    height: 240px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.card-qrcode .qrcode-hd {
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.card-qrcode .qrcode-hd b {
+    border: 5px solid #fff;
+    border-top-color: #666;
+}
+
+.card-qrcode .hover b {
+    border-bottom-color: #666;
+    border-top: none;
+}
+
+.card-qrcode .qrcode-bd {
+    background: #fff;
+    padding: 10px 0 0 0;
+}
+
+.card-qrcode .qrcode-bd p {
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+    background: #f2f2f2;
+}
+
+/* cert tm */
+.cert-ope .btn-tm-off,
+.cert-ope .btn-tm-on {
+    width: 87px;
+    vertical-align: middle;
+}
+
+/* card */
+.card-company-info {
+    padding: 20px 25px 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/*.card-company-info .width100{max-width:100px;}*/
+.card-company-info .vam {
+    width: 180px;
+    height: 90px;
+}
+
+.card-company-info .vam img {
+    max-width: 180px;
+    max-height: 90px;
+}
+
+.card-company-info .height100 {
+    max-height: 100px;
+}
+
+.card-company-info dt {
+    float: left;
+}
+
+.card-company-info dd {
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.card-company-info h3 {
+    font-size: 15px;
+    font-family: 'microsoft yahei';
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.card-company-info .cert-service {
+    margin-bottom: 7px;
+}
+
+.card-company-info .card-ope {
+    margin-top: 13px;
+}
+
+.card-company-info .card-ope a {
+    margin-right: 10px;
+    display: inline-blank;
+
+}
+
+.card-info {
+    padding: 20px 20px 10px 30px;
+}
+
+.card-info-hd {
+    font-family: 'microsoft yahei';
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.card-info-hd .btn-tm-off,
+.card-info-hd .btn-tm-on {
+    vertical-align: middle;
+}
+
+.card-info-bd dl {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.card-info-bd dt {
+    width: 60px;
+    text-align: right;
+    float: left;
+}
+
+.card-info-bd dd {
+    color: #333;
+    overflow: hidden;
+}
+
+.card-info-bd dd p {
+    font-weight: bold;
+}
+
+.card-info-bd .icon-fav-o,
+.card-info-hd .icon-fav {
+    margin: -2px 3px 0 0;
+}
+
+.card-info-bd .btn {
+    margin-right: 10px;
+}
+
+.but_contact .btn-tm-off,
+.but_contact .btn-tm-on,
+.cert-info .btn-tm-off,
+.cert-info .btn-tm-on {
+    vertical-align: middle;
+}
+
+/* favorites prodect */
+.detail-share-ope{
+	padding-top:15px;
+}
+.fav-prod {
+    float: right;
+    padding: 5px 20px 5px 0;
+}
+/*Share SNS*/
+#bdshare a,
+#bdshare .bds_wx{
+	width:22px;
+	height:18px;
+	margin-left:10px;
+	float: left;
+	background:url("share_icon.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/share_icon.png*/ no-repeat;
+}
+#bdshare .bds_wx{
+	background-position:0 0;
+}
+#bdshare .bds_wx  span{
+	display:none;
+}
+#bdshare .bds_wx:hover  span{
+	display:block;
+}
+.detail-share-ope .shareSNS{
+	float: left;
+    width: 250px;
+    margin-left: 20px;
+    margin-top:6px;
+    position: relative;
+}
+.bds_tit{
+	float:left;
+}
+
+#bdshare .bds_wx{
+	position:relative;
+}
+#bdshare .bds_wx span{
+	width:160px;
+	height:185px;
+	border:1px solid #ddd;
+	text-align:center;
+	background:#fff;
+	position:absolute;
+	top:20px;
+	left:-50px;
+}
+#bdshare .bds_wx img{
+	width:100%;
+}
+.fav-prod .icon {
+    margin: -3px 3px 0 0;
+}
+
+.top_nav .company-nav {
+    float: right;
+    line-height: 38px;
+}
+
+.top_nav .company-nav a:link,
+.top_nav .company-nav a:visited {
+    color: #ffff3a;
+}
+
+/* yellow page */
+.telec-hd {
+    padding: 8px 10px;
+    font-weight: normal;
+    background: #deecf9;
+}
+
+.yp-icon-cert {
+    width: 50px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -3px 3px 0 0;
+    background: url("yp_icon.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/mic_yellowpage/yp_icon.png*/ 0 -36px no-repeat;
+}
+
+.telec-bd {
+    padding: 6px 10px 15px;
+    background: #ecf6ff;
+}
+
+.telec-bd li {
+    padding: 6px;
+}
+
+.telec-cert {
+    padding: 2px 5px 3px 2px;
+    background: #024e99;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.telec-cert .icon {
+    margin-right: 4px;
+}
+
+.contactCard li.telec span {
+    margin: 0;
+}
+
+/*
+ * update 2016/5/31
+ * edit qrcode style
+ * wangmei
+ */
+.qrcode-switch-bd {
+    _width: 100px;
+    border: 1px solid #ddd7d9;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+}
+
+.qrcode-switch-bd img {
+    margin: 5px;
+}
+
+.detail-qrcode-switch .qrcode-switch-bd p {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+    font-size: 12px;
+    font-weight: normal;
+    background: #f2f2f2;
+    white-space: nowrap;
+}
+
+.detail-qrcode-switch {
+    position: absolute;
+    right: -11px;
+    top: -12px;
+}
+
+.detail-qrcode-switch .qrcode-switch-hd {
+    width: 54px;
+    height: 54px;
+    background: url("show_icon.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/show_icon.png*/ -26px 0 repeat;
+}
+
+/* move */
+#dragBox {
+    padding: 3px 10px;
+}
+
+#dragcursor {
+    border: 2px dashed #666;
+    padding: 10px;
+}
+
+/* price common style */
+.price {
+    color: #d9363c;
+    font-size: 14px;
+}
+
+.price span {
+    display: block;
+    font-family: 'microsoft yahei';
+}
+
+.price strong {
+    font-family: arial;
+}
+
+/* album-list */
+.my-album-wrap{
+    padding:19px;
+    border:1px solid #d9d9d9;
+	border-top:none;
+	background:#fff;
+}
+.my-album-lst {
+    margin: -20px 0 0 -10px;
+}
+
+.my-album-lst li {
+    position: relative;
+    float: left;
+    width: 180px;
+    height: 214px;
+    margin: 20px 0 0 10px;
+}
+
+.my-album-lst li .my-album-lst-wrap {
+    position: relative;
+    height:188px;
+    padding: 9px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    z-index: 2;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.my-album-lst li:before, .my-album-lst li:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    height: 4px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.my-album-lst li:before {
+    bottom: 0;
+    width: 166px;
+    margin-left: -83px;
+}
+
+.my-album-lst li:after {
+    bottom: 3px;
+    width: 172px;
+    margin-left: -86px;
+}
+
+.my-album-lst li:hover .my-album-lst-wrap {
+    border-color: #29e;
+}
+
+.my-album-lst li:hover:before, .my-album-lst li:hover:after {
+    border-color: #29e;
+}
+
+.my-album-lst li:hover:after {
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    -o-transform: translateY(-1px);
+    transform: translateY(-1px);
+}
+
+.my-album-lst li:hover .my-album-lst-wrap {
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+.my-album-lst .al-pic {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.my-album-lst .al-pic .sl-vam{
+	width: 160px;
+    height: 160px;
+}
+
+.my-album-lst .al-info {
+    line-height: 18px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.my-album-lst .al-info .al-name {
+	width: 98px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+    float: left;
+
+}
+
+.my-album-lst .al-info .al-status {
+    float: right;
+    color: #999;
+}
+
+.my-album-lst-wrap a {
+ color: #333;
+}
+.my-album-lst-wrap a:hover {
+	color: #d9363c;
+}
+/* album-view */
+.album-view{
+	padding-bottom:20px;
+}
+.album-view-main{
+    width:750px;
+	min-height: 500px;
+	border: 1px solid #d9d9d9;
+	float:left;
+    background:#fff;
+}
+.album-view-origin{
+    padding:15px 29px 29px;
+}
+.avo-hd{
+    line-height:43px;
+	text-align:center;
+}
+.avo-hd h3{
+    font-size:14px;
+}
+.avo-bd{
+	text-align:center;
+}
+.avo-bd img{
+    max-width:100%;
+}
+.yk-video-detail{
+	width:640px;
+	height:352px;
+	margin-left:28px;
+}
+.prod-photo{
+    border:1px solid #d9d9d9;
+    background:#fff;
+    border-top-color: #fff;
+}
+.prod-photo-hd{
+    height:28px;
+    line-height:28px;
+    background:#f7f7f7;
+    border-bottom:1px solid #d9d9d9;
+}
+.prod-video-name{
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.prod-photo-hd h3{
+    float:left;
+    margin:-1px 0 0 9px;
+    padding:0 12px;
+    border-bottom:2px solid #d93535;
+    color:#d93535;
+    font-size:14px;
+}
+.prod-photo-bd{
+    padding:10px 0px;
+    overflow: hidden;
+    position: relative;
+    height: 261px;
+}
+.prod-photo-lst{
+	max-height:320px;
+	position: absolute;
+	overflow: hidden;
+	width: 10000px;
+}
+.prod-photo-lst li{
+    padding:10px 0;
+    overflow:hidden;
+}
+.prod-photo-lst .ppl-pic{
+    float:left;
+    width:58px;
+    height:58px;
+	line-height: 54px;
+	text-align: center;
+    border:1px solid #d9d9d9;
+    overflow:hidden;
+}
+.prod-photo-lst .ppl-pic img {
+	max-width: 58px;
+	max-height: 58px;
+}
+.prod-photo-lst .ppl-pic .sl-vam{
+    width:58px;
+    height:58px;
+}
+.prod-photo-lst .ppl-name{
+    float:left;
+    width:510px;
+    margin-left:20px;
+}
+.prod-photo-lst .ppl-name .sl-vam{
+    height:60px;
+}
+.prod-photo-lst .ppl-price{
+    float:right;
+    width:100px;
+    font-size:14px;
+    line-height:60px;
+    color:#d9363c;
+    text-align:right;
+}
+
+.album-view-side{
+    float:right;
+    width:230px;
+}
+.album-view-side a {
+	color: #333;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.album-view-side a:hover {
+	color: #d9363c;
+}
+
+.avs-wrap{
+    border:1px solid #d9d9d9;
+    background:#fff;
+}
+.avs-in{
+    padding:24px;
+}
+.avs-hd{
+    line-height: 14px;
+    font-size:14px;
+}
+.avs-ope select{
+    width:100%;
+}
+
+/*thumb-slider*/
+.thumb-btn {
+    position:relative;
+    display:block;
+    height: 25px;
+    background: #e6e6e6;
+}
+.thumb-btn i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 17px;
+    height: 10px;
+    margin: -5px 0 0 -8px;
+    background: url("album_arrow.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/album_arrow.png*/ no-repeat;
+}
+.thumb-btn:hover {
+    background: #d9363c;
+}
+.thumb-btn.thumb-btn-disabled {
+    background: #f2f2f2;
+    cursor: not-allowed;
+}
+
+
+.thumb-btn-prev i {
+    background-position: 0 0;
+}
+.thumb-btn-prev:hover i {
+    background-position: -17px 0;
+}
+.thumb-btn-prev.thumb-btn-disabled i {
+    background-position: -34px 0;
+}
+
+
+.thumb-btn-next i {
+    background-position: 0 -10px;
+}
+.thumb-btn-next:hover i {
+    background-position: -17px -10px;
+}
+.thumb-btn-next.thumb-btn-disabled i {
+    background-position: -34px -10px;
+}
+
+.thumb-slider-container {
+    height: 312px;
+	margin:20px 0;
+	position: relative;
+    overflow: hidden;
+}
+.thumb-slider-wrap{
+    width: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.thumb-slider-wrap li {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 0 20px 25px 0;
+}
+.thumb-slider-wrap li .thumb-img {
+    position: relative;
+    width: 78px;
+    height: 78px;
+    border: 1px solid #d9d9d9;
+    overflow: hidden;
+}
+
+.thumb-slider-wrap .current .thumb-img {
+    width: 76px;
+    height: 76px;
+    border: 2px solid #d9363c;
+}
+
+.thumb-slider-wrap .thumb-img .sl-vam {
+	width:80px;
+	height: 80px;
+	margin:-1px;
+}
+
+.thumb-slider-wrap .current .thumb-img .sl-vam {
+    margin: -2px;
+}
+
+
+/* album-view-side */
+.album-view-side .ppl-des {
+    width: 100px;
+	margin-left: 10px;
+    float: left;
+}
+.album-view-side .prod-photo-lst .ppl-name {
+	width: 100px;
+	height: 37px;
+	overflow: hidden;
+	margin-left: 0;
+}
+.album-view-side .prod-photo-lst .ppl-price {
+	line-height: 20px;
+	float: none;
+	text-align: left;
+}
+
+/* page-simple */
+.page-simple {
+	text-align: center;
+}
+.page-simple a {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	display: inline-block;
+	background:#eee;
+}
+.page-simple a.current {
+	background: #ec0909;
+	color: #fff;
+}
+
+/* video list */
+.material-lst{
+	margin-left:-20px;
+}
+.material-item{
+	width:162px;
+	float:left;
+	margin:0 0 30px 30px;
+}
+.material-pic{
+	width:160px;
+	height:120px;
+	border:1px solid #e6e6e6;
+	position:relative;
+	overflow:hidden;
+}
+.material-pic .sl-vam{
+	width:160px;
+	height:120px;
+}
+.material-pic .iconfont-play{
+	font-size:48px;
+	color:#fff;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-24px 0 0 -24px;
+    width: 48px;
+    height: 48px;
+	box-shadow: 0 0 10px #ccc;
+    border-radius: 50%;
+	z-index:2;
+}
+.material-pic .iconfont-play:before{
+	display:block;
+	margin-top:17px;
+}
+.material-info{
+	padding:10px 0;
+}
+.material-info .flag{
+	padding:0 4px;
+	line-height:17px;
+	border-radius:2px;
+}
+.material-info .flag-org{
+	color:#ffb425;
+	border:1px solid #ffb425;
+}
+.material-info .flag-info{
+	color:#2298f0;
+	border:1px solid #2298f0;
+}
+.material-name{
+	width:95px;
+	display:inline-block;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	vertical-align: middle;
+    margin: -3px 0 0 3px;
+}
+.material-name:link,
+.material-name:visited{
+	color:#333;
+}
+.material-name:hover{
+	color:#d9363c;
+}
+
+/* gifs */
+.gifs-lst .material-pic{
+	height:160px;
+}
+.gifs-lst .material-pic .sl-vam{
+	height:160px;
+}
+.gifs-lst .material-pic img{
+	max-height: 160px;
+	max-width: 160px;
+}
+
+.material-pic img{
+	max-height: 120px;
+	max-width: 160px;
+}
+
+.gifs-lst .flag-gif{
+	position:absolute;
+	right:5px;
+	bottom:5px;
+	color:#fff;
+	padding:0 6px;
+	line-height:14px;
+	border-radius:2px;
+	border:1px solid #fff;
+	background:rgba(0,0,0,.4);
+	z-index:2;
+}
+.gifs-lst .material-name{
+	width:160px;
+	margin:5px 0 0 0;
+}
+.breadTips{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1190px;
+	padding-bottom: 10px;
+}
+.main-wrap-gif{
+	padding-top: 5px;
+}
+/* Í¼Æ¬´óÍ¼Ò³Ãæ */
+.view-main { border: 1px solid #d3d3d3; padding: 30px 0 0; margin-bottom: 20px; }
+.online-header h2 { font-size: 18px; font-family: Tahoma, Arial, Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, SimSun, sans-serif; font-weight: 400; line-height: 48px; }
+.online-header { height: 48px; }
+.view-main .view-title { padding-bottom: 12px; line-height: 40px; font-weight: 500; text-align: center; color: #333; font-size: 14px; }
+.view-hd{
+	font:bold 14px "microsoft yahei";
+	color:#444;
+	text-align:center;
+	padding:0 0 20px 0;
+}
+.view-list {
+	background: #f7f7f7;
+	position: relative;
+	padding-bottom: 20px;
+}
+.view-list-tab {
+	width:740px;
+	margin: -1px auto 0px;
+	padding-top:20px;
+}
+.view-list-tab  img{
+	width: 100px;
+	height: 100px;
+}
+.view-list-tab li {
+	float: left;
+	height: 136px;
+	width: 154px;
+	padding:20px 0 0 0 ;
+	border:3px solid #f7f7f7;
+}
+.view-list-tab .img-box {
+	background: #fff;
+	border: 1px solid #d7d7d7;
+}
+.view-list-tab .pics_bg {
+	margin: 0 auto;
+	background: url("more_pic_s.gif")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/new-common/more_pic_s.gif*/ no-repeat scroll 0 0 transparent;
+	height: 100px;
+	padding: 0 4px 4px 0;
+	width: 100px;
+}
+.view-list-tab .current-view {
+	border: 3px solid #de373d;
+	position: relative;
+	z-index: 1;
+}
+.view-list-tab li h4 {
+	text-align: center;
+}
+.view-list-tab li h4 a {
+	font-weight: 500;
+	color: #333;
+	text-decoration: none;
+	font-size: 12px;
+}
+.view-list-tab li .view-arrow{
+	width: 0;
+	height: 0;
+	font-size: 0;
+	border: 8px dashed transparent;
+	border-bottom: 8px solid #de373d;
+	position:absolute;
+	top:-19px;
+	left:69px;
+	display:none;
+}
+.view-list-tab .current-view .view-arrow{
+	display:block;
+}
+.view-list-tab  img {
+	max-width:100px;
+	max-height:100px;
+}
+.view-pic { height: 502px; overflow: hidden; position: relative; }
+#pic-right { right: 10px }
+.arrow-left, .arrow-right { position: absolute; width: 189px; height: 350px; z-index:9;}
+.arrow-left{left:0;}
+.arrow-right{right:0;}
+.arrow-left a,
+.arrow-right a {
+	display: block;
+	height: 131px;
+	width: 80px;
+	background: url("show-cert-sprite.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/new-common/show-cert-sprite.png*/ no-repeat;
+}
+.arrow-left a { margin: 160px 0 0 18px; background-position: -160px -140px; }
+.arrow-right a { margin: 160px 18px 0 91px; background-position: 30px -140px; }
+.arrow-left .first { background-position: -160px -279px;}
+.arrow-right .last { background-position: 30px -279px;}
+.view-pic-area { width: 788px; height: 450px; }
+.view-pic-list { 
+	width: 788px;
+    height: 500px;
+    overflow: hidden;
+    padding: 0 100px;
+}
+.img-inner { display: table-cell; vertical-align: middle; *position:absolute;
+*top:50%;
+left: 50% }
+.img-inner img { vertical-align: middle;  max-width:500px; max-height:500px;*position:relative;
+*top:-50%;
+*left:-50%
+}
+.view-lst-left,
+.view-lst-right{
+	width:35px;
+	height:65px;
+	display:block;
+	background:url("show-cert-sprite.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/new-common/show-cert-sprite.png*/ no-repeat;
+	position:absolute;
+	top:70px;
+}
+.view-lst-left{
+	background-position:-560px -282px;
+	left:20px;
+	_left:-50px;
+}
+.view-lst-left:hover{
+	background-position:-490px -282px;
+}
+.view-lst-right{
+	background-position:-594px -282px;
+	right:20px;
+}
+.view-lst-right:hover{
+	background-position:-525px -282px;
+}
+.album-view-bd{
+	width: 750px;
+    min-height: 700px;
+    float: left;
+}
+.album-view-special{
+	float: none;
+}
+/* ÖØÐ´ÊÓÆµÕ¹Ê¾Ò³Ãæ */
+.prod-photo-special li{
+    width: 160px;
+    float: left;
+    margin: 0 0 0 25px;
+    padding: 0;
+}
+.ppl-pic-special{
+	width: 160px;
+    height: 160px;
+}
+.ppl-pic-special{
+	 float:left;
+     width:158px;
+     height:160px;
+	 text-align: center;
+     border:1px solid #d9d9d9;
+     overflow:hidden;
+}
+.ppl-pic-special img{
+	max-width: 160px;
+    max-height: 160px;
+}
+
+.ppl-name-special{
+	float: none;
+    margin-left: 0px;
+    width: 160px;
+    height: 40px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.ppl-price-special{
+	width: 100px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #d9363c;
+}
+.prod-photo-hd-special{
+	height: 28px;
+    line-height: 28px;
+    border-bottom: 1px solid #fff;
+    position: relative;
+}
+.prod-photo-hd-special h3{
+    padding: 0 20px;
+    color: #333;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.prod-photo-hd-special span{
+    padding: 0 24px;
+    color: #333;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.avs-in-special{
+	padding: 12px 18px 38px 18px;
+}
+.page-simple-special{
+	position: absolute;
+	right: 35px;
+	top: 0px;
+}
+.changePage{
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #d9d9d9;
+    line-height: 20px;
+    background-color: #eee;
+    cursor: pointer;
+    font-family: 'simsun';
+}
+/* page-simple-special*/
+.page-simple-special {
+	text-align: center;
+}
+.page-simple-special a {
+	width: 8px;
+    height: 8px;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    background: #eee;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+.page-simple-special a.current {
+	background: #ec0909;
+	color: #fff;
+}
+.humb-slider-container-special{
+	height: 637px;
+}
+.thumb-slider-wrap-special li {
+    float: left;
+    width: 192px;
+    height: 132px;
+    margin: 0 20px 30px 0;
+}
+.thumb-img-special{
+	width: 192px;
+	height: 107px;
+	position: relative;
+}
+.current-special{
+  color: #d9363c !important;
+}
+.iconfont-play {
+    font-size: 48px;
+    color: #fff;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    margin: -24px 0 0 -24px;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 50%;
+    z-index: 2;
+}
+/* */
+.prod-good .page-simple-special {
+	right:15px;	
+}
+.prod-good .changePage{
+	background:#fff;
+	border:none;	
+}
+.prod-good-box{
+    padding: 10px 25px;
+}
+.prod-slide-box{
+	height: 290px;
+	margin: 20px auto; 
+	border-radius: 5px 5px 0 0;
+}
+.prod-pho-box{
+	margin: 20px auto; 
+	border-radius: 5px 5px 0 0;
+}
+.ppl-pic-content{
+     width:158px;
+     height:160px;
+     display: table-cell;
+	 text-align: center;
+     vertical-align: middle;
+     border:1px solid #d9d9d9;
+}
+.prod-ul-box{
+	position:relative;
+	height:230px;
+	overflow:hidden;
+}
+.prod-ul-special li{
+	width: 160px;
+    float: left;
+    margin: 15px 0 0 24px;
+    padding: 0;
+}
+.prod-ul-special{
+	position:absolute;
+	top: 0;
+	left:0;
+}
+.ppl-pic-content img{
+	max-width: 158px;
+    max-height: 160px;
+}
+.pic-title-special{
+	line-height: 20px;
+}
+.prod-photo-lst a:link{
+	color: black;
+}
+.prod-photo-lst a:visited{
+	color: black;
+}
+.prod-photo-bd-2st{
+	 padding: 10px 24px;
+     overflow: hidden;
+     position: relative;
+     height: auto;
+}
+.prod-photo-2st{
+	max-height: 335px;
+    position: relative;
+    overflow: hidden; 
+    width: auto;
+}
+.sl-vam-special{
+	width: 160px;
+	height: 160px;
+}
+.title-top{
+	font-size: 14px;
+}
+.buyerWatch{
+   position: absolute;
+    z-index: 99;
+    top: 0;
+    border-left: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    width: 142px;
+    left: 1014px;
+    padding: 15px;
+    background-color: #fff;
+}
+.buyerWatch p{
+	  text-align: center;
+      font-size: 14px;
+      color: #c5c5c5;
+      margin-bottom: 10px;	
+}
+.list-wild{
+	 max-height: 476px;
+     overflow: hidden;
+     position: relative;
+}
+.buyer-list{
+	 position: relative;
+}
+.buyer-list img{
+	  border: 1px solid #d9d9d9;
+}
+.buyer-list li{
+	width: 110px;
+    height: 150px;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;	
+}
+.buyer-pro-name{
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.buyer-pro-price{
+	
+}
+.exchange-prod{
+	text-align: center;
+}
+.exchange-prod span{
+	color: #d9d9d9;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.cycle{
+	display: inline-block;
+    background-color: #d9d9d9;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-bottom: 3px;	
+}
+.current{
+	background-color: red;
+}
+
+pre{
+	white-space: pre-wrap;
+	word-wrap:break-word;
+}
+
+/*fixed maitong*/
+.fix-tm{
+	position:fixed;
+	width:160px;
+	height:90px;
+	padding-top:65px;
+	border-radius:20px;
+	text-align:center;
+	background:#fff;
+	right:40px;
+	bottom:0;
+	box-shadow:0 0 5px rgba(0,0,0,.2);
+	z-index:99;
+}
+.fix-tm-hd{
+	width:199px;
+	height:93px;
+	background:url("fix_tm_hd_bg.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/fix_tm_hd_bg.png*/ no-repeat;
+	position:absolute;
+	left:0;
+	top:-58px;
+}
+.fix-tm-logo{
+	width:40px;
+	height:39px;
+	background:url("fix_tm_logo.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/fix_tm_logo.png*/ no-repeat;
+	display:inline-block;
+	cursor:pointer;
+	-webkit-animation: bounce .9s infinite;
+}
+.fix-text{
+	font-size:14px;
+	font-weight:bold;
+	margin:5px 0 20px 0;
+}
+.view-tel-p{
+	padding-left:36px;
+}
+
+ .fix-view-tel{
+	width:180px;
+	height:47px;
+	border-radius:3px;
+	margin:0 auto;
+	color:#fff;
+	background-color:#ff894a;
+	background:-webkit-linear-gradient(left,#ff4b4a,#ffba4a);
+	background:linear-gradient(left,#ff4b4a,#ffba4a);
+}
+.fix-view-tel dt{
+	float:left;
+	width:45px;
+	height:47px;
+	background:url("phone_img.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/phone_img.png*/ 50% 50% no-repeat;
+}
+.fix-view-tel dd{
+	overflow:hidden;
+	padding:5px 0 0 8px;
+	text-align:left;
+	font-weight:bold;
+} 
+.fix-tm-senior{
+	width:200px;
+	height:150px;
+}
+.fix-tm-senior .fix-tm-hd{
+	left:10px;
+	top:-45px;
+}
+.has-more-menu{
+	color: #d9d9d9;
+    float: right;
+}
+@keyframes bounce{
+		0%,20%,50%,100%{transform:translate(0, 0)}
+		40%{transform:translate(0, -10px)}
+		60%{transform:translate(0, -10px)}
+	}
