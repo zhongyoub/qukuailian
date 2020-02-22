@@ -1,0 +1,19 @@
+/*
+*@Name:展示厅弹出框样式文件
+*@Description:免费版展示厅、身份认证会员展示厅和百销通会员展示厅通用。
+*@Author:Unknown
+*@Update:Shjy 2013.4.26
+*/
+.contactFr{position:relative;vertical-align:middle;}
+.zst-dialog{width:240px;position:absolute;z-index:1000;padding:2px;background-color:#ccc;border:1px solid #ccc;right:0;left:auto;top:24px}
+.zst-dialog-wrap{background:#fff;*zoom:1;}
+.zst-dialog-tit{position:relative;height:36px;width:100%;border-bottom:1px solid #ccc;}
+.zst-dialog-tit .zst-dialog-tit-txt{margin:0;padding:5px 0 5px 10px;font:bold 14px/26px Tahoma,Arial,Simsun;color:#333;background:#fff;height:25px;}
+.zst-dialog-tit .zst-dialog-close{display:block;position:absolute;right:10px;top:10px;width:15px;height:15px;cursor:pointer;background:url("../../images/box-close.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/box-close.png*/ -2px 0px no-repeat;}
+.zst-dialog-tit .zst-dialog-close:hover{background-position:-2px -20px;}
+.zst-dialog-con{position:relative;padding: 15px 0 15px 35px;}
+
+.tip-ico{position:absolute;top:10px;left:5px;width:26px;height:26px;_left:-30px;}
+.tip-ok{background:url("../../images/ok.gif")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/ok.gif*/ no-repeat;}
+
+
