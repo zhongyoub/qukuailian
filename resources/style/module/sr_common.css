@@ -3,15 +3,15 @@
 * @author shijinyu
 * @update 2013-12-19
 */
-@import url("../base/base_import.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/base/base_import.css*/;
-@import url("../ui/ui_icon.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/ui/ui_icon.css*/;
-@import url("../ui/ui_pop.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/ui/ui_pop.css*/;
-@import url("../ui/ui_tip.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/ui/ui_tip.css*/;
-@import url("../ui/button.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/ui/button.css*/;
-@import url("../components/cn_footer.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/components/cn_footer.css*/;
-@import url("../components/sr_nav.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/components/sr_nav.css*/;
-@import url("../ui/u-box.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/ui/u-box.css*/;
-@import url("../ui/pagenav.css")/*tpa=https://tengyue123.cn.made-in-china.com/resources/style/ui/pagenav.css*/;
+@import url("../base/base_import.css");
+@import url("../ui/ui_icon.css");
+@import url("../ui/ui_pop.css");
+@import url("../ui/ui_tip.css");
+@import url("../ui/button.css");
+@import url("../components/cn_footer.css");
+@import url("../components/sr_nav.css");
+@import url("../ui/u-box.css");
+@import url("../ui/pagenav.css");
 
 .fix-adv,
 .free-adv{
@@ -32,7 +32,7 @@
 .ico-cert-senior {
     width: 100px;
     height: 38px;
-    background: url("../../images/new-common/show-cert-sprite.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/new-common/show-cert-sprite.png*/ 0 0;
+    background: url("../../images/new-common/show-cert-sprite.png") 0 0;
     display: inline-block;
     _display: block;
     text-indent: -999em;
@@ -52,7 +52,7 @@
     width: 94px;
     height: 27px;
     margin-bottom: 5px;
-    background: url("../../images/new-common/show-cert-sprite.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/new-common/show-cert-sprite.png*/ -322px -334px;
+    background: url("../../images/new-common/show-cert-sprite.png") -322px -334px;
     display: inline-block;
 }
 
@@ -90,7 +90,7 @@
     width: 36px;
     height: 36px;
     display: block;
-    background: url("../../images/common/browser_logo.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/browser_logo.png*/ no-repeat;
+    background: url("../../images/common/browser_logo.png") no-repeat;
     margin: 0 0 7px 31px;
 }
 
@@ -211,7 +211,7 @@
 .addBox a {
     color: #fff;
     font-size: 14px;
-    background: url("../../images/icon-add.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/icon-add.png*/ no-repeat left center;
+    background: url("../../images/icon-add.png") no-repeat left center;
     padding-left: 18px
 }
 
@@ -661,17 +661,17 @@
 .flu-tool .btn-tm-on {
     width: 130px;
     height: 30px;
-    background: url("../../images/flx_send_msg.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/flx_send_msg.png*/ no-repeat;
+    background: url("../../images/flx_send_msg.png") no-repeat;
 }
 
 .flu-tool .btn-tm-off,
 .flu-tool .btn-tm-on {
-    background: url("../../images/flx_tm_off.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/flx_tm_off.png*/ no-repeat;
+    background: url("../../images/flx_tm_off.png") no-repeat;
     margin-top: 0;
 }
 
 .flu-tool .btn-tm-on {
-    background: url("../../images/flx_tm_on.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/flx_tm_on.png*/ no-repeat;
+    background: url("../../images/flx_tm_on.png") no-repeat;
 }
 
 .qrcode-hd {
@@ -691,7 +691,7 @@
     display: inline-block;
     margin-right: 5px;
     vertical-align: middle;
-    background: url("../../images/common/icon.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/icon.png*/ no-repeat;
+    background: url("../../images/common/icon.png") no-repeat;
 }
 
 .qrcode-hd b {
@@ -918,7 +918,7 @@
 	height:18px;
 	margin-left:10px;
 	float: left;
-	background:url("../../images/common/share_icon.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/share_icon.png*/ no-repeat;
+	background:url("../../images/common/share_icon.png") no-repeat;
 }
 #bdshare .bds_wx{
 	background-position:0 0;
@@ -983,7 +983,7 @@
     display: inline-block;
     vertical-align: middle;
     margin: -3px 3px 0 0;
-    background: url("../../images/mic_yellowpage/yp_icon.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/mic_yellowpage/yp_icon.png*/ 0 -36px no-repeat;
+    background: url("../../images/mic_yellowpage/yp_icon.png") 0 -36px no-repeat;
 }
 
 .telec-bd {
@@ -1050,7 +1050,7 @@
 .detail-qrcode-switch .qrcode-switch-hd {
     width: 54px;
     height: 54px;
-    background: url("../../images/common/show_icon.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/show_icon.png*/ -26px 0 repeat;
+    background: url("../../images/common/show_icon.png") -26px 0 repeat;
 }
 
 /* move */
@@ -1347,7 +1347,7 @@
     width: 17px;
     height: 10px;
     margin: -5px 0 0 -8px;
-    background: url("../../images/common/album_arrow.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/album_arrow.png*/ no-repeat;
+    background: url("../../images/common/album_arrow.png") no-repeat;
 }
 .thumb-btn:hover {
     background: #d9363c;
@@ -1607,7 +1607,7 @@
 }
 .view-list-tab .pics_bg {
 	margin: 0 auto;
-	background: url("../../images/new-common/more_pic_s.gif")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/new-common/more_pic_s.gif*/ no-repeat scroll 0 0 transparent;
+	background: url("../../images/new-common/more_pic_s.gif") no-repeat scroll 0 0 transparent;
 	height: 100px;
 	padding: 0 4px 4px 0;
 	width: 100px;
@@ -1654,7 +1654,7 @@
 	display: block;
 	height: 131px;
 	width: 80px;
-	background: url("../../images/new-common/show-cert-sprite.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/new-common/show-cert-sprite.png*/ no-repeat;
+	background: url("../../images/new-common/show-cert-sprite.png") no-repeat;
 }
 .arrow-left a { margin: 160px 0 0 18px; background-position: -160px -140px; }
 .arrow-right a { margin: 160px 18px 0 91px; background-position: 30px -140px; }
@@ -1679,7 +1679,7 @@ left: 50% }
 	width:35px;
 	height:65px;
 	display:block;
-	background:url("../../images/new-common/show-cert-sprite.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/new-common/show-cert-sprite.png*/ no-repeat;
+	background:url("../../images/new-common/show-cert-sprite.png") no-repeat;
 	position:absolute;
 	top:70px;
 }
@@ -1993,7 +1993,7 @@ pre{
 .fix-tm-hd{
 	width:199px;
 	height:93px;
-	background:url("../../images/common/fix_tm_hd_bg.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/fix_tm_hd_bg.png*/ no-repeat;
+	background:url("../../images/common/fix_tm_hd_bg.png") no-repeat;
 	position:absolute;
 	left:0;
 	top:-58px;
@@ -2001,7 +2001,7 @@ pre{
 .fix-tm-logo{
 	width:40px;
 	height:39px;
-	background:url("../../images/common/fix_tm_logo.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/fix_tm_logo.png*/ no-repeat;
+	background:url("../../images/common/fix_tm_logo.png") no-repeat;
 	display:inline-block;
 	cursor:pointer;
 	-webkit-animation: bounce .9s infinite;
@@ -2029,7 +2029,7 @@ pre{
 	float:left;
 	width:45px;
 	height:47px;
-	background:url("../../images/common/phone_img.png")/*tpa=https://tengyue123.cn.made-in-china.com/resources/images/common/phone_img.png*/ 50% 50% no-repeat;
+	background:url("../../images/common/phone_img.png") 50% 50% no-repeat;
 }
 .fix-view-tel dd{
 	overflow:hidden;
