@@ -34,7 +34,7 @@
 
 /* common footer style */
 .site-footer{margin:0 auto;clear:both;background-color:#fff;padding:10px 0;text-align:center}
-.footer-link{height:20px;line-height:20px;padding-left:13px;text-align:center}
+.footer-link{height:20px;line-height:20px;padding-left:8px;text-align:center}
 .footer-link li{display:inline;margin-right:13px}
 
 .footer-copyright{line-height:20px;text-align:center;color:#999}
